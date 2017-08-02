@@ -1,29 +1,19 @@
-body {
-  text-align:center;
-  font-family: 'Comfortaa', cursive;
-  background-image: url(css/how_to_use.jpg);
-  background-position-x: center;
-  background-position-y:center;
-  background-size:cover;
-  background-repeat-x: no-repeat;
-  background-repeat-y: no-repeat;
+.jumbotron {
+  padding-top: 90px;
+  min-height: 600px;
+  margin-bottom: 0;
+  background-image: url('css/how_to_use.JPG');
+  background-size: cover;
   background-attachment: fixed;
-  background-origin: initial;
-  background-clip: initial;
-  background-color: initial;
-  background-size:co;
-  background-position:center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  margin: 0px;
 }
 
 h1 {color: black;
   padding: 60px;
   font-family: 'Ariel', cursive;
+  text-align:center;
 }
 
-p {color: white;
+p {color: black;
 font-size: 15px;
 font-weight: bold;
 font-family: 'Ariel', cursive;
@@ -183,4 +173,12 @@ color: white;
 
 .fa {
   color: white;
+}
+.whiteBackground {
+  padding-top: 90px;
+  min-height: 600px;
+  margin-bottom: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background: white;
 }
