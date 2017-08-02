@@ -11,7 +11,7 @@ body {
   background-origin: initial;
   background-clip: initial;
   background-color: initial;
-  background-size:co;
+  background-size:cover;
   background-position:center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -98,11 +98,18 @@ a.nav-link:active
 div.container1 {
     font-family: 'Helvetica', cursive;
     margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
     padding: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
     text-align: center;
     width: 100%;
 }
-
 div.container1 a {
     color: #FFF;
     font-size: 15px;
@@ -161,7 +168,7 @@ ul.contact-address li {
   text-align: justify;
 }
 
-#logowomeninspire
+#logo
 {
 position: absolute;
 left: 10;
