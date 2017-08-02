@@ -1,7 +1,23 @@
+.jumbotron {
+  padding-top: 90px;
+  min-height: 600px;
+  margin-bottom: 0;
+  background-image: url('css/about_us_pic3.JPG');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.jumbotron h1 {
+  font-family: 'arial header';
+  color: Black;
+  background-color: white;
+  margin-bottom: 10em;
+}
+
 body {
   text-align:center;
   font-family: 'Comfortaa', cursive;
-  background-image: url(css/about_us_pic3.jpg);
+  background-color: white;
   background-position-x: center;
   background-position-y:center;
   background-size:cover;
@@ -18,15 +34,15 @@ body {
   margin: 0px;
 }
 
-h1 {color: white;
+h1 {color: black;
   padding: 60px;
-  font-family: 'Ariel', cursive;
+  font-family: "Arial Header", cursive;
 }
 
 p {color: black;
-font-size: 15px;
+font-size: 20px;
 font-weight: bold;
-font-family: 'Helvetica', cursive;
+font-family: 'comic-sans', cursive;
 }
 
 .carousel-inner {
@@ -89,6 +105,7 @@ a.nav-link:active
 
 .text-off-white {
  color: white;
+
 }
 
 .contact-form {
@@ -183,4 +200,13 @@ color: white;
 
 .fa {
   color: white;
+}
+
+.whiteBackground{
+  padding-top: 90px;
+  min-height: 600px;
+  margin-bottom: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background: white;
 }
