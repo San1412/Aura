@@ -25,7 +25,6 @@ h1 {color: red;
 
 p {color: black;
 font-size: 30px;
-font-weight: bold;
 font-family: 'Arsenal', cursive;
 }
 
@@ -96,9 +95,10 @@ a.nav-link:active
 }
 
 div.container1 {
+    colour:white;
     font-family: 'Arsenal', cursive;
     margin: 0 auto;
-    margin-top: 0px;
+    margin-top: 5px;
     margin-right: auto;
     margin-bottom: 0px;
     margin-left: auto;
@@ -108,11 +108,12 @@ div.container1 {
     padding-bottom: 15px;
     padding-left: 15px;
     text-align: center;
+    text-emphasis-color: white;
     width: 100%;
 }
 div.container1 a {
     color: #FFF;
-    font-size: 15px;
+    font-size: 25px;
     margin: 6px;
     padding: 6px 6px;
     position: relative;
@@ -125,7 +126,7 @@ div.gray a:before
 {
     position: absolute;
     width: 100%;
-    height: 2px;
+    height: 5px;
     left: 0px;
     bottom: 0px;
     content: '';
@@ -192,14 +193,25 @@ color: white;
   color: white;
 }
 .moodpic{
-  background-color: white;
 	height: 50%;
 	width: 75%;
 	margin: 30px;
+  border-top: 10px;
+  border-bottom: 10px;
+  border-left: 10px;
+  border-right: 10px;
+  border-color:white ;
+  border-style: solid;
 }
 
 .rowtable{
-  text-align: center;
-  background-color: #fff3e6;
 
+  text-align: center;
+  background-color:#fff2e6;
+  border-top: 10px;
+  border-bottom: 10px;
+  border-left: 10px;
+  border-right: 10px;
+  border-color: white;
+  border-style: solid;
 }
