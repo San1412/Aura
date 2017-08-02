@@ -1,6 +1,6 @@
 body {
   text-align:center;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Arsenal', cursive;
   background-image: url(tree2.jpg);
   background-position-x: center;
   background-position-y:center;
@@ -20,19 +20,19 @@ body {
 
 h1 {color: red;
   padding: 60px;
-  font-family: 'Ariel', cursive;
+  font-family: 'Arsenal', cursive;
 }
 
-p {color: white;
+p {color: black;
 font-size: 30px;
 font-weight: bold;
-font-family: 'Ariel', cursive;
+font-family: 'Arsenal', cursive;
 }
 
 .carousel-inner {
   color: white;
 height: 400px;
-font-family: 'Arsenal', sans-serif;
+font-family: 'Arsenal', cursive;
 }
 
 .carousel-indicators {
@@ -96,7 +96,7 @@ a.nav-link:active
 }
 
 div.container1 {
-    font-family: 'Helvetica', cursive;
+    font-family: 'Arsenal', cursive;
     margin: 0 auto;
     margin-top: 0px;
     margin-right: auto;
@@ -190,4 +190,16 @@ color: white;
 
 .fa {
   color: white;
+}
+.moodpic{
+  background-color: white;
+	height: 50%;
+	width: 75%;
+	margin: 30px;
+}
+
+.rowtable{
+  text-align: center;
+  background-color: #fff3e6;
+
 }
