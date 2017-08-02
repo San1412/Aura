@@ -18,15 +18,15 @@ body {
   margin: 0px;
 }
 
-h1 {color: red;
+h1 {color: white;
   padding: 60px;
   font-family: 'Ariel', cursive;
 }
 
-p {color: white;
+p {color: black;
 font-size: 15px;
 font-weight: bold;
-font-family: 'Ariel', cursive;
+font-family: 'Helvetica', cursive;
 }
 
 .carousel-inner {

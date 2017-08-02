@@ -1,7 +1,7 @@
 body {
   text-align:center;
   font-family: 'Comfortaa', cursive;
-  background-image: url(css/about_us_pic3.jpg);
+  background-image: url(css/how_to_use.jpg);
   background-position-x: center;
   background-position-y:center;
   background-size:cover;
@@ -18,7 +18,7 @@ body {
   margin: 0px;
 }
 
-h1 {color: red;
+h1 {color: black;
   padding: 60px;
   font-family: 'Ariel', cursive;
 }
