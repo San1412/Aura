@@ -1,7 +1,22 @@
+.jumbotron {
+  padding-top: 90px;
+  min-height: 600px;
+  margin-bottom: 0;
+  background-image: url('css/about_us_pic3.JPG');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.jumbotron h1 {
+  font-family: 'Vast Shadow', cursive;
+  color: white;
+  margin-bottom: 1em;
+}
+
 body {
   text-align:center;
   font-family: 'Comfortaa', cursive;
-  background-image: url(css/about_us_pic3.jpg);
+  background-color: white;
   background-position-x: center;
   background-position-y:center;
   background-size:cover;
@@ -23,7 +38,7 @@ h1 {color: red;
   font-family: 'Ariel', cursive;
 }
 
-p {color: white;
+p {color: black;
 font-size: 15px;
 font-weight: bold;
 font-family: 'Ariel', cursive;
