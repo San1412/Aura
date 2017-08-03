@@ -2,7 +2,7 @@
   padding-top: 90px;
   min-height: 600px;
   margin-bottom: 0;
-  background-image: url('css/about_us_pic3.JPG');
+  background-image: url('css/Pictures/about_us_pic3.JPG');
   background-size: cover;
   background-attachment: fixed;
   font-family: 'Arsenal';cursive;
@@ -81,6 +81,6 @@ a {
 
 }
 form{
-  font-family: 'arsenal'cursive;
+  font-family: 'arsenal';cursive;
   color:black;
 }

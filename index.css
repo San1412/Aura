@@ -1,7 +1,7 @@
 body {
   text-align:center;
   font-family: 'Arsenal'; cursive;
-  background-image: url(tree2.jpg);
+  background-image: url(css/Pictures/petal.jpg);
   background-position-x: center;
   background-position-y:center;
   background-size:cover;
@@ -79,6 +79,7 @@ a.nav-link:active
 
 .contact-info {
   color: white;
+  font-family: 'arsenal';cursive;
 }
 
 .copyright {
@@ -96,7 +97,7 @@ a.nav-link:active
 }
 
 div.container1 {
-    colour:white;
+    colour:black;
     font-family: 'Arsenal'; cursive;
     margin: 0 auto;
     margin-top: 5px;
@@ -110,10 +111,15 @@ div.container1 {
     padding-left: 15px;
     text-align: center;
     text-emphasis-color: white;
+    background-color: #fff2e6;
     width: 100%;
+    border-width: 10px;
+    border-style: solid;
+    border-color: white;
+
 }
 div.container1 a {
-    color: #FFF;
+    color: black;
     font-size: 25px;
     margin: 6px;
     padding: 6px 6px;
@@ -131,7 +137,7 @@ div.gray a:before
     left: 0px;
     bottom: 0px;
     content: '';
-    background: #FFF;
+    background: black;
     opacity: 0.3;
     transition: all 0.3s;
 }
@@ -174,7 +180,7 @@ ul.contact-address li {
 {
 position: absolute;
 left: 10;
-top: 16;
+top: 23;
 font-size: 15px;
 }
 
@@ -194,7 +200,7 @@ color: white;
   color: white;
 }
 .moodpic{
-	height: 50%;
+	height: 40%;
 	width: 75%;
 	margin: 30px;
   border-top: 10px;
