@@ -8,10 +8,10 @@
 }
 
 .jumbotron h1 {
-  font-family: 'Arsenal';cursive;
+  font-family: 'Arsenal',cursive;
   color: Black;
   background-color: white;
-  margin-bottom: 10em;
+  margin-bottom: 8px;
 }
 
 body {
@@ -52,4 +52,9 @@ font-family: 'Arsenal', cursive;
   background-size: cover;
   background-attachment: fixed;
   background: white;
+}
+a {
+  background-color: #00BFFF;
+  
+
 }
