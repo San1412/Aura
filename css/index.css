@@ -1,7 +1,7 @@
 body {
   text-align:center;
   font-family: 'Arsenal', cursive;
-  background-image: url(petals2.jpg);
+  background-image: url(css/Pictures/petal.jpg);
   background-position-x: center;
   background-position-y:center;
   background-size:cover;
@@ -18,22 +18,21 @@ body {
   margin: 0px;
 }
 
-h1 {
+h1 {color: red;
+  padding: 60px;
   font-family: 'Arsenal', cursive;
-
-
 }
 
-p {
-color: black;
+p {color: black;
 font-size: 30px;
 font-family: 'Arsenal', cursive;
 }
 
 .carousel-inner {
-color: white;
+  color: white;
 height: 400px;
 font-family: 'Arsenal', cursive;
+font-size: 200pt;
 }
 
 .carousel-indicators {
@@ -48,7 +47,6 @@ input {
      border: 0;
      padding: 10px;
      font-size: 18px;
-     background-color: black;
    }
 
 input[type="submit"] {
@@ -87,7 +85,6 @@ a.nav-link:active
   color: white;
   font-size: 12;
   font-weight: bold;
-
 }
 
 .text-off-white {
@@ -95,12 +92,11 @@ a.nav-link:active
 }
 
 .contact-form {
-  color: black;
+  color: white;
 }
 
 div.container1 {
-    background-color:#fff2e6;
-    text-emphasis-color: black;
+    colour:white;
     font-family: 'Arsenal', cursive;
     margin: 0 auto;
     margin-top: 5px;
@@ -113,14 +109,11 @@ div.container1 {
     padding-bottom: 15px;
     padding-left: 15px;
     text-align: center;
-    border-top-width:7px;
-    border-bottom-width:7px;
-    border-color: white;
-    border-style: solid;
+    text-emphasis-color: white;
     width: 100%;
 }
 div.container1 a {
-    color: black;
+    color: #FFF;
     font-size: 25px;
     margin: 6px;
     padding: 6px 6px;
@@ -138,7 +131,7 @@ div.gray a:before
     left: 0px;
     bottom: 0px;
     content: '';
-    background: black;
+    background: #FFF;
     opacity: 0.3;
     transition: all 0.3s;
 }
@@ -150,25 +143,38 @@ div.gray a:hover:before
 
 #thankyoubutton {
 color: black;
-background-color:white;
-
 }
 
 #submitbutton {
   color: black;
   margin-top:15px;
-  border-radius: 50px;
-  border-color: black;
-  border-style: solid;
 }
 
+ul.contact-address {
+  list-style-type: none;
+  text-align: center;
+}
 
+ul.contact-address li i {
+  margin-right: 60px;
+}
+
+ul.contact-address li div {
+
+}
+.no-i {
+    margin-left: 70.66px;
+}
+
+ul.contact-address li {
+  text-align: justify;
+}
 
 #logo
 {
 position: absolute;
 left: 10;
-top: 20;
+top: 16;
 font-size: 15px;
 }
 
@@ -188,7 +194,7 @@ color: white;
   color: white;
 }
 .moodpic{
-	height: 45%;
+	height: 50%;
 	width: 75%;
 	margin: 30px;
   border-top: 10px;
@@ -209,26 +215,4 @@ color: white;
   border-right: 10px;
   border-color: white;
   border-style: solid;
-}
-.contact-form{
-  font-family: 'Arsenal',cursive;
-  colour: black;
-
-}
-h4{
-  background-color:#fff2e6 ;
-  background-style: solid;
-  width:160px;
-  margin-left: 200;
-  margin-right: 200;
-  border-top-width:7px;
-  border-bottom-width: 7px;
-  border-style: solid;
-  border-color: #fff2e6;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  font-style: normal;
-  font-family:Arsenal, cursive;
 }
