@@ -93,7 +93,7 @@ a.nav-link:active
 }
 
 .contact-form {
-  color: white;
+  color: black;
 }
 
 div.container1 {
@@ -221,4 +221,16 @@ color: white;
   border-right: 10px;
   border-color: white;
   border-style: solid;
+}
+h4{
+  background-color: #fff2e6;
+  margin-left: 90;
+  margin-right: 90;
+  border-width: medium;
+  border-color: white;
+  border-style: solid;
+  border-top-left-radius:20px;
+  border-top-right-radius:20px;
+  border-bottom-left-radius:20px;
+  border-bottom-right-radius:20px;
 }
