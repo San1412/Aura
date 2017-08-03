@@ -5,19 +5,19 @@
   background-image: url('css/about_us_pic3.JPG');
   background-size: cover;
   background-attachment: fixed;
+  font-family: 'Arsenal';cursive;
 }
 
 .jumbotron h1 {
   font-family: 'Arsenal';cursive;
   color: Black;
-  background-color: white;
-  margin-bottom: 10em;
+  background-color: #fff2e6;
+  margin-bottom:5px;
 }
 
 body {
   text-align:center;
-  font-family: 'Arsenal', cursive;
-  background-color: white;
+  background-color:white ;
   background-position-x: center;
   background-position-y:center;
   background-size:cover;
@@ -34,15 +34,18 @@ body {
   margin: 0px;
 }
 
-h1 {color: black;
+h1 {
+  font-family: 'Arsenal'; cursive;
+  color: black;
   padding: 60px;
-  font-family: "Arsenal", cursive;
 }
 
-p {color: black;
+p {
+font-family: 'Arsenal'; cursive;
+color: black;
 font-size: 20px;
-font-weight: bold;
-font-family: 'Arsenal', cursive;
+
+
 }
 
 .whiteBackground{
@@ -51,5 +54,13 @@ font-family: 'Arsenal', cursive;
   margin-bottom: 0;
   background-size: cover;
   background-attachment: fixed;
-  background: white;
+  background: #fff2e6;
+  border-top-width: 10px;
+  border border-bottom-width: 10px;
+  border-left-width: 10px;
+  border-right-width: 10px;
+  border-style: solid;
+  border-color: white;
+  font-family: 'Arsenal';cursive;
+
 }
