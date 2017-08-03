@@ -5,6 +5,7 @@
   background-image: url('css/how_to_use.JPG');
   background-size: cover;
   background-attachment: fixed;
+  font-family: 'Arsenal';cursive;
 }
 
 .jumbotron h1 {
@@ -39,9 +40,10 @@ body {
   margin: 0px;
 }
 
-h1 {color: black;
+h1 {
+  color: black;
   padding: 60px;
-  font-family: "Arsenal"; cursive;
+  font-family: 'Arsenal'; cursive;
 }
 
 
@@ -53,7 +55,7 @@ font-family: 'Arsenal';cursive;
 
 .whiteBackground {
   padding-top: 90px;
-  min-height: 600px;
+  min-height: 350px;
   margin-bottom: 0;
   background-size: cover;
   background-attachment: fixed;

@@ -9,15 +9,17 @@
 }
 
 .jumbotron h1 {
-  font-family: 'Arsenal',cursive;
+  font-family: 'Arsenal';cursive;
   color: Black;
-<<<<<<< HEAD
   background-color: #fff2e6;
   margin-bottom:5px;
-=======
-  background-color: white;
-  margin-bottom: 8px;
->>>>>>> origin/master
+  border-top-width: 10px;
+  border-bottom-width: 10px;
+  border-right-width: 10px;
+  border-left-width: 10px;
+  border-color: white;
+  border-style: solid;
+
 }
 
 body {
@@ -44,6 +46,10 @@ h1 {
   color: black;
   padding: 60px;
 }
+h2{
+  font-family: 'Arsenal'; cursive;
+  color: black;
+}
 
 p {
 font-family: 'Arsenal'; cursive;
@@ -55,7 +61,7 @@ font-size: 20px;
 
 .whiteBackground{
   padding-top: 90px;
-  min-height: 600px;
+  min-height: 350px;
   margin-bottom: 0;
   background-size: cover;
   background-attachment: fixed;
@@ -71,6 +77,10 @@ font-size: 20px;
 }
 a {
   background-color: #00BFFF;
-  
 
+
+}
+form{
+  font-family: 'arsenal'cursive;
+  color:black;
 }

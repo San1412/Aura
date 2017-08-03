@@ -1,6 +1,6 @@
 body {
   text-align:center;
-  font-family: 'Arsenal', cursive;
+  font-family: 'Arsenal'; cursive;
   background-image: url(tree2.jpg);
   background-position-x: center;
   background-position-y:center;
@@ -20,18 +20,18 @@ body {
 
 h1 {color: red;
   padding: 60px;
-  font-family: 'Arsenal', cursive;
+  font-family: 'Arsenal'; cursive;
 }
 
 p {color: black;
 font-size: 30px;
-font-family: 'Arsenal', cursive;
+font-family: 'Arsenal'; cursive;
 }
 
 .carousel-inner {
   color: white;
 height: 400px;
-font-family: 'Arsenal', cursive;
+font-family: 'Arsenal'; cursive;
 font-size: 200pt;
 }
 
@@ -97,7 +97,7 @@ a.nav-link:active
 
 div.container1 {
     colour:white;
-    font-family: 'Arsenal', cursive;
+    font-family: 'Arsenal'; cursive;
     margin: 0 auto;
     margin-top: 5px;
     margin-right: auto;
